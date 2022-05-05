@@ -1,0 +1,100 @@
+.section {
+  height: 50vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.flexElement {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.contentOne {
+  position: relative;
+  width: 95%;
+  height: 95%;
+}
+
+.contentTwo {
+  position: relative;
+  width: 93%;
+  height: 94%;
+  background-color: goldenrod;
+  border-radius: 10px;
+}
+
+.contentTwo :hover,
+.contentTwo ::before {
+  transform: scale(1.02);
+  transition: all 1.5s ease-in-out;
+}
+
+
+.photoElementOne {
+  width: 100%;
+  height: 100%;
+  transition: all 2s ease-in-out;
+}
+
+.photoElementOne img {
+  position: relative;
+  overflow: hidden;
+  min-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.contentOne :hover,
+.contentOne ::before {
+  transform: scale(1.025);
+  transition: all 1.5s ease-in-out;
+}
+
+.photoElementTwo {
+  width: 100%;
+  height: 100%;
+}
+
+.photoElementTwo img {
+  position: relative;
+  overflow: hidden;
+  min-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  transition: all 1.5s ease-in-out;
+}
+
+.headingElement {
+  bottom: 20px;
+  position: absolute;
+  left: 2%;
+}
+
+.headingElement a {
+  font-family: var(--fontfam9);
+  font-weight: 400;
+  text-shadow: 2.5px 2px 5px #777;
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.headingElement a:hover,
+.headingElement a::before {
+  color: #ffff;
+  transform: scale(1.05);
+  text-shadow: 2px 2px 7px #777;
+}

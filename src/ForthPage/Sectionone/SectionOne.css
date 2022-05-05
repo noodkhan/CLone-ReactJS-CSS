@@ -1,0 +1,57 @@
+
+.sectionOne {
+    width: 93%;
+    background: linear-gradient(to right, rgb(7, 1, 31), rgb(1, 11, 24));
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sectionOne .titleFirst {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 15%;
+    height: 100%;
+    margin-left: 50px;
+  }
+  
+  .sectionOne .titleFirst h2 {
+    display: flex;
+    align-items: flex-end;
+    height: 35%;
+    font-size: 27px;
+    font-family: var(--fontfam4);
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  
+  .sectionOne .titleFirst p {
+    display: flex;
+    align-items: center;
+    height: 45%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .sectionOne .titleFirst a {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-start;
+    font-family: var(--fontfam1);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: all 1.7s ease-in-out;
+  }
+  
+  .sectionOne a:hover,
+  .sectionone a::before {
+    transform: scale(1.1);
+    transition: all 1.7s ease-in-out;
+  }

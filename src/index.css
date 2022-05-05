@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Lora:ital,wght@0,400;0,500;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito+Sans:ital,wght@0,200;1,200;1,300;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Prompt:ital,wght@0,100;0,300;0,400;0,900;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,300;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap");
+
+:root {
+  --fontfam1: "Raleway";
+  --fontfam2: "PT Sans";
+  --fontfam3: "Merriweather";
+  --fontfam4: "Nunito Sans";
+  --fontfam5: "Concert One";
+  --fontfam6: "Prompt";
+  --fontfam7: "Work Sans";
+  --fontfam8: "Roboto";
+  --fontfam9: "Lora";
+
+
+  --color: (
+     right top,
+    #33427071,
+    #4f68bb71,
+    #4f68bb71,
+    #4f68bb71,
+    #4f68bb71,
+    #2a366494,
+    #27335f88,
+    #24305aa6,
+    #1c274880,
+    #161f37b4,
+    #101626,
+    #070b16
+  );
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Global_____Setting */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #070b16;
+}
+
+html {
+  color: antiquewhite;
+  font-family: var(--fontfam1);
+  font-size: 20px;
+}
+
+.text-black {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--fontfam4);
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  margin-left: 10px;
+  opacity: 0.8;
+  color: orange;
+}

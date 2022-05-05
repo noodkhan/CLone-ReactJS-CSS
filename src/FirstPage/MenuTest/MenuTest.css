@@ -1,0 +1,165 @@
+.menuSection {
+    z-index: 10;
+    top: 10px;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+  }
+
+
+  .firstMenu {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    height: 100%;
+    width: 450px;
+    transition: all 2s ease-in-out;
+  }
+
+
+  .firstMenu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .firstMenu ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .firstMenu ul li a {
+    font-size: 16px;
+    font-family: var(--fontfam4);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 3px 3px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: all 1s ease-in-out;
+  }
+
+  .firstMenu ul li  a:hover,
+  .firstMenu ul li  a::before {
+    border-bottom: 1px solid #999;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .firstMenu ul li a span {
+    margin-right: 5px;
+  }
+
+  .astonMartin {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    z-index: 2;
+  }
+
+  .svgMartin {
+    width: 100%;
+    height: 100%;
+  }
+
+  .svgMartin a {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    position: absolute;
+  }
+
+  .svgMartin img {
+    overflow: hidden;
+  }
+
+  .svgMartin h2 {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 27px;
+    font-family: var(--fontfam9);
+    color: rgba(255, 255, 255, 0.801);
+    text-shadow: 2px 3px 4px black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    transition: all 1s ease-in-out;
+  }
+
+  .svgMartin h2 span {
+    margin-left: 10px;
+  }
+
+  .svgMartin a h2:hover,
+  .svgMartin a h2::before {
+    color: #555;
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  .secondMenu {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    margin-right: 70px;
+  }
+
+  .secondMenu ul {
+    margin-left: 20px;
+    display: flex;
+    height: 100%;
+    gap: 1.5rem;
+  }
+
+  .secondMenu ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .secondMenu ul li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: var(--fontfam1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 3px 3px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: all 1s ease-in-out;
+    opacity: 0.6;
+  }
+
+  .secondMenu ul li a:hover,
+  .secondMenu ul li a::before {
+    border-bottom: 1px solid #999;
+    color: white;
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  .secondMenu ul li a span {
+    margin: 5px;
+  }
+
+  

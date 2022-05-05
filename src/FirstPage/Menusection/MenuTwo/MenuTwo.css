@@ -1,0 +1,47 @@
+.secondMenu {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    margin-right: 70px;
+  }
+
+  .secondMenu ul {
+    margin-left: 20px;
+    display: flex;
+    height: 100%;
+    gap: 1.5rem;
+  }
+
+  .secondMenu ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .secondMenu ul li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: var(--fontfam1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 3px 3px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: all 1s ease-in-out;
+    opacity: 0.6;
+  }
+
+  .secondMenu ul li a:hover,
+  .secondMenu ul li a::before {
+    border-bottom: 1px solid #999;
+    color: white;
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  .secondMenu ul li a span {
+    margin: 5px;
+  }

@@ -1,0 +1,14 @@
+.bigContact {
+    position: relative;
+    height: 60%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+  }
+  
+  

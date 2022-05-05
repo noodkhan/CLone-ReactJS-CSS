@@ -1,0 +1,6 @@
+.wallpaperThree {
+  height: 95vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
