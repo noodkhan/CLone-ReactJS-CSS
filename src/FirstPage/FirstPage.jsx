@@ -69,9 +69,9 @@ function FirstPage() {
       <div className="wallpaper" id="wallpaper">
         <div className="photoBackground" id="photo">
           <img src={BackgroundPhoto} alt="Background" />
+      {Heading}
         </div>
       </div>
-      {Heading}
       {BarSpec}
       <MenuSection />
     </>

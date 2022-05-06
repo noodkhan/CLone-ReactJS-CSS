@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1150px) {
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 100vh;
+    background: whitesmoke;
+  }
+
+  .headingContact {
+    margin-top: 50px;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .headingContact p {
+    margin-left: 30px;
+    font-size: 25px;
+    color: #111;
+    font-weight: 500;
+    letter-spacing: 5px;
+  }
+
+  .headingContact h2 {
+    letter-spacing: 3px;
+    color: #444;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: var(--fontfam6);
+  }
+
+  .bigContact {
+    height: 60%;
+    display: flex;
+    gap: 2rem;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .cardContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigPhoto {
+    max-width: 550px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+
+  .bigPhoto img {
+    width: 105%;
+    height: 100%;
+    max-width: 115%;
+    max-height: 100%;
+  }
+
+  .cardContent :hover,
+  .cardContent::before {
+    transition: all 1s ease-in-out;
+    transform: scale(1.04);
+    border-radius: 30px;
+  }
+
+  .bigHeading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+  }
+
+  .bigHeading p {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: var(--fontfam1);
+  }
+
+  .bigHeading h2 {
+    height: 35%;
+    color: black;
+    width: 100%;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: var(--fontfam3);
+  }
+
+  .bigHeading a {
+    height: 20%;
+    width: 40%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    font-family: var(--fontfam7);
+    font-weight: 600;
+    color: #222;
+    margin-top: 60px;
+  }
+
+  .seeAllContent {
+    display: flex;
+    height: 5.5%;
+    width: 205px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    right: 0;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonAll {
+    border-left: 3px solid #333;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(243, 238, 238, 0.89),
+      rgb(241, 237, 237)
+    );
+  }
+
+  .buttonAll a {
+    color: black;
+    font-family: var(--fontfam9);
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 1.7s ease-in-out;
+  }
+
+  .buttonAll a:hover,
+  .buttonAll a::before {
+    transform: scale(1.1);
+    transition: all 1.7s ease-in-out;
+  }
+}

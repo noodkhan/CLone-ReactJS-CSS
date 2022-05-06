@@ -1,16 +1,15 @@
-.secondMenu {
+@media screen and (min-width: 1150px) {
+  .secondMenu {
     position: absolute;
     right: 0;
     height: 100%;
-    width: 400px;
-    margin-right: 70px;
+    width: 30%;
   }
 
   .secondMenu ul {
     margin-left: 20px;
     display: flex;
     height: 100%;
-    gap: 1.5rem;
   }
 
   .secondMenu ul li {
@@ -45,3 +44,4 @@
   .secondMenu ul li a span {
     margin: 5px;
   }
+}

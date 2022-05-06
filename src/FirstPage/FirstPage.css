@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1150px) {
+@media screen and (min-width: 1150px) {
   .wallpaper {
     height: 100vh;
     position: relative;
@@ -205,21 +205,4 @@
     color: white;
   }
 
-  .wallpaperTwo {
-    background-image: linear-gradient(
-      to top #05070cf5,
-      #05070cb6,
-      #05070cb6,
-      #05070cb6,
-      #0a1129c7,
-      #0a1129c7,
-      #0a1129ef,
-      #0c1127f6,
-      #091024ec,
-      #161f37e3,
-      #121b35ec,
-      #0613364b
-    );
-    height: 150vh;
-  }
 }
