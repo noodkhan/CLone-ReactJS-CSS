@@ -1,22 +1,20 @@
 
 .sectionOne {
-    width: 93%;
+    width: 100%;
     background: linear-gradient(to right, rgb(7, 1, 31), rgb(1, 11, 24));
     height: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   
   .sectionOne .titleFirst {
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: 300px;
     max-width: 15%;
     height: 100%;
-    margin-left: 50px;
   }
   
   .sectionOne .titleFirst h2 {

@@ -1,4 +1,5 @@
 .section {
+  width: 92vw;
   height: 50vh;
   background-color: transparent;
   display: flex;

@@ -1,92 +1,92 @@
-
 .sectionTwo {
-    border-top: 2px solid #666;
-    width: 100%;
-    height: 24%;
-    display: flex;
-    border-bottom: 2px solid #444;
-    transition: all 1s ease-in-out;
-  }
-  
-  .sectionTwo ul {
-    justify-content: space-around;
-    display: flex;
-    width: 50%;
-    align-items: center;
-  }
-  
-  .sectionTwo ul li {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sectionTwo ul li a {
-    font-size: 18px;
-    font-family: var(--fontfam4);
-    color: whitesmoke;
-    font-weight: bold;
-    transition: all 1s ease-in-out;
-  }
-  
-  .sectionTwo a:hover,
-  .sectionTwo a::before {
-    transform: scale(1.17);
-    transition: all 1s ease-in-out;
-  }
-  
-  .sectionTwo .martinRoyal {
-    min-width: 325px;
-    max-width: 300px;
-    height: 173px;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-  }
-  
-  .sectionTwo .martinRoyal img {
-    min-width: 210px;
-    max-width: 300px;
-    height: 100%;
-    transition: all 1s ease-in-out;
-  }
-  
-  .sectionTwo .martinRoyal img:hover,
-  .sectionTwo .martinRoyal img::before {
-    transform: scale(1.3);
-    transition: all 1.7s ease-in-out;
-  }
-  
-  .sectionTwo .martinRoyal a:hover,
-  .sectionTwo .martinRoyal a::before {
-    transform: scale(1.25);
-    transition: all 1s ease-in-out;
-    color: whitesmoke;
-  }
-  
-  .sectionTwo .martinRoyal a {
-    position: absolute;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    height: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: -155px;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 27px;
-    font-family: var(--fontfam4);
-    color: rgba(255, 255, 255, 0.801);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: 200;
-    transition: all 1s ease-in-out;
-  }
+  border-top: 2px solid #666;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  border-bottom: 2px solid #444;
+  transition: all 1s ease-in-out;
+  position: relative;
+}
+
+.sectionTwo ul {
+  gap: 2rem;
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.sectionTwo ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwo ul li a {
+  font-size: 18px;
+  font-family: var(--fontfam4);
+  color: whitesmoke;
+  font-weight: bold;
+  transition: all 1s ease-in-out;
+}
+
+.sectionTwo a:hover,
+.sectionTwo a::before {
+  transform: scale(1.17);
+  transition: all 1s ease-in-out;
+}
+
+.sectionTwo .martinRoyal {
+  min-width: 355px;
+  max-width: 400px;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwo .martinRoyal img {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 250px;
+  transition: all 1s ease-in-out;
+}
+
+.sectionTwo .martinRoyal img:hover,
+.sectionTwo .martinRoyal img::before {
+  transform: scale(1.2);
+  transition: all 1.7s ease-in-out;
+}
+
+.sectionTwo .martinRoyal a:hover,
+.sectionTwo .martinRoyal a::before {
+  transform: scale(1.25);
+  transition: all 1s ease-in-out;
+  color: whitesmoke;
+}
+
+.sectionTwo .martinRoyal a {
+  position: absolute;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 27px;
+  font-family: var(--fontfam4);
+  color: rgba(255, 255, 255, 0.801);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  transition: all 1s ease-in-out;
+}

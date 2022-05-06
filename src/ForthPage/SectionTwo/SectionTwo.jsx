@@ -16,7 +16,7 @@ function SectionTwo() {
           <a href="blank">Contact Us</a>
         </li>
         <li>
-          <a href="blank">Terms And Conditions</a>
+          <a href="blank">Conditions</a>
         </li>
       </ul>
 
@@ -36,7 +36,7 @@ function SectionTwo() {
           <a href="blank">Careers</a>
         </li>
         <li>
-          <a href="blank">International site</a>
+          <a href="blank">International</a>
         </li>
       </ul>
     </div>

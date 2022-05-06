@@ -5,6 +5,7 @@
     height: 28%;
     display: flex;
     overflow: hidden;
+    margin-bottom: 2rem;
   }
   
   .lastTitleOne {
