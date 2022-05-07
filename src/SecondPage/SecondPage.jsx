@@ -1,5 +1,6 @@
 import React from "react";
 import "./SecondPage.css";
+import "./SecondPagePhone.css";
 import FlexBig from "./Update/FlexBIg/FlexBig";
 import FlexSmall from "./Update/FlexSmall/FlexSmall";
 
@@ -8,8 +9,8 @@ function SecondPage() {
     <>
       <div className="wallpaperTwo" id="wallpaperTwo">
         <div className="test" id="test">
-            <FlexSmall></FlexSmall>
-            <FlexBig></FlexBig>
+          <FlexSmall></FlexSmall>
+          <FlexBig></FlexBig>
         </div>
       </div>
     </>

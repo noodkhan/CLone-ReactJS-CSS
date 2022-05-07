@@ -2,13 +2,12 @@
   .contactSection {
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
     height: 100vh;
     background: whitesmoke;
+    margin-top: 40px;
   }
 
   .headingContact {
-    margin-top: 50px;
     height: 15%;
     display: flex;
     flex-direction: column;

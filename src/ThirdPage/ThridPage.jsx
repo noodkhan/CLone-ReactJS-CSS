@@ -1,5 +1,6 @@
 import React from "react";
 import "./ThridPage.css";
+import './ThridPagePhone.css';
 import Card from "./CardContainer/Card";
 
 function ThridPage() {

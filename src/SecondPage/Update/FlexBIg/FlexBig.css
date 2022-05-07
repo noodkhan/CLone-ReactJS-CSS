@@ -1,4 +1,4 @@
-  
+@media screen and (min-width: 1150px) {
   .flexElementTwo {
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +15,7 @@
     position: relative;
     height: 85vh;
   }
-  
+
   .photoElementThree {
     border-radius: 10px;
     height: 100%;
@@ -23,7 +23,7 @@
     overflow: hidden;
     transition: all 2s ease-in-out;
   }
-  
+
   .photoElementThree img {
     position: relative;
     margin-left: auto;
@@ -33,7 +33,7 @@
     min-width: 100%;
     height: 120%;
   }
-  
+
   .headingElementThree {
     position: absolute;
     width: 600px;
@@ -44,7 +44,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .headingElementThree a {
     display: flex;
     align-items: center;
@@ -59,17 +59,17 @@
     transition: all 1s ease-in-out;
     cursor: pointer;
   }
-  
+
   .headingElementThree p {
     width: 100px;
     height: 130px;
     font-family: var(--fontfam4);
     font-weight: bold;
   }
-  
+
   .contentThree :hover,
   .contentThree ::before {
     transform: scale(1.05);
     transition: all 2s ease-in-out;
   }
-  
+}

@@ -1,114 +1,114 @@
-.wallpaperTwo {
-  background-image: linear-gradient(
-    to top #05070cf5,
-    #05070cb6,
-    #05070cb6,
-    #05070cb6,
-    #0a1129c7,
-    #0a1129c7,
-    #0a1129ef,
-    #0c1127f6,
-    #091024ec,
-    #161f37e3,
-    #121b35ec,
-    #0613364b
-  );
-  height: 150vh;
-}
-.test {
-  position: relative;
-  min-height: 155vh;
-  padding: 50px;
-  box-sizing: border-box;
-  z-index: 1;
-}
+@media only screen and (min-width: 1150px) {
+  .wallpaperTwo {
+    background-image: linear-gradient(
+      to top #05070cf5,
+      #05070cb6,
+      #05070cb6,
+      #05070cb6,
+      #0a1129c7,
+      #0a1129c7,
+      #0a1129ef,
+      #0c1127f6,
+      #091024ec,
+      #161f37e3,
+      #121b35ec,
+      #0613364b
+    );
+    height: 150vh;
+  }
+  .test {
+    position: relative;
+    min-height: 155vh;
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
 
-.brokenHeading {
-  position: absolute;
-  width: 600px;
-  height: 110px;
-  bottom: 20px;
-  left: 3%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  .brokenHeading {
+    position: absolute;
+    width: 600px;
+    height: 110px;
+    bottom: 20px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.brokenHeading a {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  font-family: var(--fontfam9);
-  font-weight: 400;
-  font-size: 35px;
-  color: #555;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  transition: all 2s ease-in-out;
-  cursor: pointer;
-}
+  .brokenHeading a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: var(--fontfam9);
+    font-weight: 400;
+    font-size: 35px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+  }
 
-.brokenHeading p {
-  color: black;
-  display: flex;
-  align-items: center;
-  font-family: var(--fontfam6);
-  opacity: 0.9;
-  font-weight: 500;
-  height: 100%;
-  transition: all 1s ease-in-out;
-  cursor: pointer;
-}
+  .brokenHeading p {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: var(--fontfam6);
+    opacity: 0.9;
+    font-weight: 500;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
 
-.brokenHeading a :hover,
-.brokenHeading a ::before {
-  transform: scale(1.05);
-  color: white;
-}
+  .brokenHeading a :hover,
+  .brokenHeading a ::before {
+    transform: scale(1.05);
+    color: white;
+  }
 
+  .seeAllContent {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    height: 5.5%;
+    width: 205px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    right: 0;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .buttonAll {
+    border-left: 3px solid #333;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(243, 238, 238, 0.89),
+      rgb(241, 237, 237)
+    );
+  }
 
-.seeAllContent {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  display: flex;
-  height: 5.5%;
-  width: 205px;
-  margin-top: auto;
-  margin-bottom: auto;
-  top: 0;
-  right: 0;
-  margin-left: 50px;
-  align-items: center;
-  justify-content: center;
-}
+  .buttonAll a {
+    color: black;
+    font-family: var(--fontfam9);
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 1.7s ease-in-out;
+  }
 
-.buttonAll {
-  border-left: 3px solid #333;
-  align-items: center;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(243, 238, 238, 0.89),
-    rgb(241, 237, 237)
-  );
-}
-
-.buttonAll a {
-  color: black;
-  font-family: var(--fontfam9);
-  font-weight: 500;
-  font-size: 18px;
-  transition: all 1.7s ease-in-out;
-}
-
-.buttonAll a:hover,
-.buttonAll a::before {
-  transform: scale(1.1);
-  transition: all 1.7s ease-in-out;
+  .buttonAll a:hover,
+  .buttonAll a::before {
+    transform: scale(1.1);
+    transition: all 1.7s ease-in-out;
+  }
 }
