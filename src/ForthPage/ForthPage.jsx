@@ -1,5 +1,6 @@
 import React from "react";
 import "./ForthPage.css";
+import "./ForthPagePhone.css";
 import SectionOne from "./Sectionone/SectionOne";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";

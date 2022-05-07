@@ -58,7 +58,7 @@ function FirstPage() {
     <div className="infoSection">
       {Selector}
       {SpecPhoto}
-      {BarContent}
+      {/* {BarContent} */}
     </div>
   );
 

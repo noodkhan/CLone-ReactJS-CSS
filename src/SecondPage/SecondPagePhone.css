@@ -15,7 +15,10 @@
       #0613364b
     );
     height: 150vh;
+    margin-top: 0;
   }
+
+
   .test {
     background: #05070cb6;
     position: relative;

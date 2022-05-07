@@ -1,59 +1,62 @@
-@media only screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
   .wallpaperThree {
-    height: 95vh;
+    height: 80vh;
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-top: .5rem;
   }
 
   .sectionOne {
-    width: 93%;
-    background: linear-gradient(to right, rgb(7, 1, 31), rgb(1, 11, 24));
-    height: 50%;
+    width: 100%;
+    /* background: linear-gradient(to right, rgb(7, 1, 31), rgb(1, 11, 24)); */
+    height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
   .sectionOne .titleFirst {
-    padding: 10px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 300px;
-    max-width: 15%;
+    width: 25%;
     height: 100%;
-    margin-left: 50px;
+    text-align: center;
   }
 
   .sectionOne .titleFirst h2 {
     display: flex;
-    align-items: flex-end;
-    height: 35%;
-    font-size: 27px;
+    justify-content: center;
+    align-items: center;
+    height: 30.3%;
+    font-size: 13px;
     font-family: var(--fontfam4);
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
   }
 
   .sectionOne .titleFirst p {
+    margin-top: 1rem;
     display: flex;
+    height: 50.3%;
+    justify-content: center;
     align-items: center;
-    height: 45%;
-    letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
     color: #888;
+    margin-bottom: 2rem;
   }
 
   .sectionOne .titleFirst a {
     width: 100%;
-    height: 30%;
+    height: 20.3%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     font-family: var(--fontfam1);
     font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 3px;
+    font-size: 10px;
+    letter-spacing: 2px;
     transition: all 1.7s ease-in-out;
   }
 
@@ -66,29 +69,32 @@
   .sectionTwo {
     border-top: 2px solid #666;
     width: 100%;
-    height: 24%;
+    height: 20%;
     display: flex;
-    border-bottom: 2px solid #444;
     transition: all 1s ease-in-out;
+    margin-top: 1.5rem;
   }
 
   .sectionTwo ul {
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
-    width: 50%;
+    width: 100%;
+    flex-wrap: wrap;
     align-items: center;
+    gap: rem;
+    justify-content: center;
   }
 
   .sectionTwo ul li {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .sectionTwo ul li a {
-    font-size: 18px;
+    font-size: 15px;
     font-family: var(--fontfam4);
     color: whitesmoke;
     font-weight: bold;
@@ -97,23 +103,32 @@
 
   .sectionTwo a:hover,
   .sectionTwo a::before {
-    transform: scale(1.17);
+    transform: scale(1.07);
     transition: all 1s ease-in-out;
   }
 
   .sectionTwo .martinRoyal {
-    min-width: 325px;
-    max-width: 300px;
-    height: 173px;
-    display: flex;
+    right: 0;
+    left: 0;
+    top: 5rem;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    height: 15%;
     overflow: hidden;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .sectionTwo .martinRoyal img {
-    min-width: 210px;
-    max-width: 300px;
-    height: 100%;
+    display: none;
+    width: 50%;
+    min-height: 100%;
     transition: all 1s ease-in-out;
   }
 
@@ -132,18 +147,19 @@
 
   .sectionTwo .martinRoyal a {
     position: absolute;
+    display: none;
     align-self: center;
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 100%;
+    z-index: 2;
     height: 10%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     top: 0;
-    bottom: -155px;
+    bottom: 2rem;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 27px;
@@ -156,13 +172,16 @@
   }
 
   .sectionThree {
+    border-top: 2px solid #666;
     width: 100%;
-    height: 28%;
+    height: 100%;
     display: flex;
     overflow: hidden;
+    margin-top: 5.5rem;
   }
 
   .lastTitleOne {
+    text-align: center;
     display: flex;
     justify-content: center;
     width: 10%;
@@ -179,12 +198,13 @@
   .lastTitleTwo {
     font-size: 15px;
     width: 40%;
-    padding: 30px;
+    padding: 15px;
     height: 100%;
   }
 
   .lastTitleTwo p {
-    font-size: 14px;
+    font-size: 10px;
+    letter-spacing: 1px;
     height: 50%;
     font-family: var(--fontfam4);
     font-weight: bold;
@@ -193,19 +213,20 @@
   .lastTitleThree {
     width: 45%;
     display: flex;
-    padding: 30px;
+    padding: 10px;
     flex-direction: column;
   }
 
   .lastTitleThree a {
-    font-size: 15px;
+    font-size: 13px;
     font-family: var(--fontfam9);
     font-weight: 500;
+    letter-spacing: 1px;
   }
 
   .lastTitleThree p {
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
     height: 50%;
     font-family: var(--fontfam4);
     font-weight: 100;
