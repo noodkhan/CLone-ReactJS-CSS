@@ -1,6 +1,7 @@
-.bigContact {
+@media screen and (min-width: 1150px) {
+  .bigContact {
     position: relative;
-    height: 60%;
+    height: 100%;
     display: flex;
     gap: 2rem;
     margin-top: 2rem;
@@ -10,5 +11,4 @@
     left: 0;
     right: 0;
   }
-  
-  
+}

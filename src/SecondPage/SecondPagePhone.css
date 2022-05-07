@@ -37,7 +37,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
     left: 0;
     right: 0;
     height: 50vh;
-    width: 100%;
+    width: 95%;
     border-radius: 30px;
   }
 
@@ -73,8 +73,8 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 80%;
   }
 
   .contentOne :hover,
@@ -85,13 +85,13 @@
 
   .headingElement {
     position: absolute;
-    width: 100%;
-    height: 210px;
-    bottom: 10px;
-    left: 3%;
+    width: 90%;
+    height: 20%;
+    bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
   }
 
   .headingElement a {
@@ -101,12 +101,13 @@
     font-family: var(--fontfam4);
     font-weight: 400;
     text-shadow: 1px 1px 20px #777;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: all 1s ease-in-out;
     cursor: pointer;
+    margin-top: 1.5rem;
   }
 
   .headingElement a:hover,
@@ -123,7 +124,8 @@
     text-transform: uppercase;
     font-family: var(--fontfam4);
     position: absolute;
-    bottom: 30px;
+    margin-bottom: 4rem;
+    letter-spacing: 2px;
   }
 
   .contentTwo {
@@ -145,8 +147,8 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 80%;
     max-height: 100%;
     border-radius: 10px;
     transition: all 1.5s ease-in-out;

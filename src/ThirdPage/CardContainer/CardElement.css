@@ -1,88 +1,90 @@
-.cardContent {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
+@media screen and (min-width: 1150px) {
+  .cardContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
-.bigPhoto {
-  max-width: 550px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 1s ease-in-out;
-}
+  .bigPhoto {
+    max-width: 550px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
 
-.bigPhoto img {
-  width: 100%;
-  height: 100%;
-  max-width: 115%;
-  max-height: 100%;
-}
+  .bigPhoto img {
+    width: 100%;
+    height: 100%;
+    max-width: 115%;
+    max-height: 100%;
+  }
 
-.cardContent :hover,
-.cardContent::before {
-  transition: all 1s ease-in-out;
-  transform: scale(1.04);
-  border-radius: 30px;
-}
+  .cardContent :hover,
+  .cardContent::before {
+    transition: all 1s ease-in-out;
+    transform: scale(1.04);
+    border-radius: 30px;
+  }
 
-.bigHeading {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  letter-spacing: 3px;
-  gap: 5px;
-}
+  .bigHeading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+    gap: 5px;
+  }
 
-.bigHeading p {
-  margin-left: 10px;
-  width: 100%;
-  height: 30%;
-  display: flex;
-  align-items: center;
-  color: black;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: var(--fontfam1);
-}
+  .bigHeading p {
+    margin-left: 10px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: var(--fontfam1);
+  }
 
-.bigHeading h2 {
-  margin-left: 10px;
-  height: 35%;
-  color: black;
-  width: 100%;
-  font-weight: 300;
-  font-size: 17px;
-  font-family: var(--fontfam3);
-}
+  .bigHeading h2 {
+    margin-left: 10px;
+    height: 35%;
+    color: black;
+    width: 100%;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: var(--fontfam3);
+  }
 
-.bigHeading a {
-  background: linear-gradient(to right top, #021035, #070b16);
-  bottom: 10px;
-  right: 0;
-  border: 3px 3px 3px black;
-  border-radius: 10px;
-  height: 20%;
-  position: absolute;
-  width: 45%;
-  font-size: 15px;
-  align-items: center;
-  font-family: var(--fontfam7);
-  font-weight: 600;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
+  .bigHeading a {
+    background: linear-gradient(to right top, #021035, #070b16);
+    bottom: 10px;
+    right: 0;
+    border: 3px 3px 3px black;
+    border-radius: 10px;
+    height: 20%;
+    position: absolute;
+    width: 45%;
+    font-size: 15px;
+    align-items: center;
+    font-family: var(--fontfam7);
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
 
-i {
-  position: absolute;
-  right: 3px;
-  display: none;
+  i {
+    position: absolute;
+    right: 3px;
+    display: none;
+  }
 }
