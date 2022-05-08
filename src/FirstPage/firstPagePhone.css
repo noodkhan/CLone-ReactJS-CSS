@@ -89,7 +89,7 @@
     height: 50px;
     right: 0;
     left: 0;
-    margin-top: 4.2rem;
+    margin-top: 2.5rem;
     margin-right: auto;
     margin-left: auto ;
     z-index: 2;
@@ -194,6 +194,7 @@
     display: flex;
     flex-direction: column;
     transition: all 1s ease-in-out;
+    z-index: 1;
   }
 
   .headingSection :hover,
@@ -238,45 +239,31 @@
   }
 
   .infoSection {
-    bottom: 0;
+    bottom: 20px;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    top: 20%;
+    top: 0%;
     left: 0;
     right: 0;
     height: 50vh;
-    background-image: linear-gradient(
-      to right top,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #070b16,
-      #101626,
-      #070b16
-    );
     position: absolute;
     justify-content: center;
     align-items: center;
+    background: transparent;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     opacity: 0.85;
     transition: all 1s ease-in-out;
     margin-bottom: 0rem;
+    z-index: 1;
   }
 
   
   .infoSection  :hover,
   .infoSection ::before{
-    transform: scale(1.05);
     transition: all 1s ease-in-out;
   }
 
@@ -325,13 +312,11 @@
     transition: all 1s ease-in-out;
     width: 100%;
     min-height: 100%;
-    z-index: 21;
   }
 
 
   .specPhoto  :hover,
   .specPhoto  ::before{
-    transform: scale(.9);
     transition: all 1s ease-in-out;
   }
 
