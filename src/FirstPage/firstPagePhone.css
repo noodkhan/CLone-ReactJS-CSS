@@ -2,10 +2,9 @@
 
   .wallpaper {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     position: relative;
-    z-index: 0;
-    margin-bottom: 5rem;
+    z-index: -5;
 
   }
 
@@ -26,7 +25,7 @@
   
   .menuSection {
     background-color: #070b16;
-    z-index: 3;
+    z-index: 10;
     top: 0;
     height: 5vh;
     width: 100vw;
@@ -89,17 +88,16 @@
     height: 50px;
     right: 0;
     left: 0;
-    margin-top: 2.5rem;
+    margin-top: 6rem;
     margin-right: auto;
     margin-left: auto ;
-    z-index: 2;
   }
 
   .svgMartin {
     width: 100%;
     height: 100%;
   }
-
+  
   .svgMartin a {
     display: flex;
     text-align: center;
@@ -112,7 +110,7 @@
   .svgMartin img {
     overflow: hidden;
   }
-
+  
   .svgMartin h2 {
     align-self: center;
     display: flex;
@@ -188,7 +186,8 @@
     cursor: pointer;
     position: absolute;
     width: 100%;
-    height: 100vh;
+    top: 2rem;
+    height: 60vh;
     background-color: #070b16;
     text-align: center;
     display: flex;
@@ -204,7 +203,7 @@
   }
 
   .headingSection .pTag {
-    height: 17%;
+    height: 57%;
     background-color: #070b16;
     display: flex;
     justify-content: center;
@@ -233,7 +232,7 @@
     font-family: var(--fontfam6);
     font-weight: 200;
     height: 85px;
-    font-size: 60px;
+    font-size: 50px;
     transition: all 1s ease-in-out;
     text-shadow: 2.5px 2px 5px black;
   }
@@ -247,7 +246,7 @@
     top: 0%;
     left: 0;
     right: 0;
-    height: 50vh;
+    height: 60vh;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -255,7 +254,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    opacity: 0.85;
+    opacity: 1;
     transition: all 1s ease-in-out;
     margin-bottom: 0rem;
     z-index: 1;
