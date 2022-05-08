@@ -1,10 +1,11 @@
 @media  screen and (max-width: 1150px){
+
   .wallpaper {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
-    z-index: -2;
-    margin-bottom: 3rem;
+    z-index: 0;
+    margin-bottom: 5rem;
 
   }
 
@@ -233,28 +234,27 @@
   }
 
   .infoSection {
-    position: absolute;
     bottom: 0;
-    top: 300px;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    top: 20%;
     left: 0;
     right: 0;
     height: 50vh;
     background-image: linear-gradient(
       to right top,
-      #33427071,
-      #4f68bb71,
-      #4f68bb71,
-      #4f68bb71,
-      #4f68bb71,
-      #2a366494,
-      #27335f88,
-      #24305aa6,
-      #1c274880,
-      #161f37b4,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
+      #070b16,
       #101626,
       #070b16
     );
@@ -265,12 +265,24 @@
     flex-direction: column;
     border-radius: 5px;
     opacity: 0.85;
+    transition: all 1s ease-in-out;
+    margin-bottom: 1rem;
   }
 
+  
+  .infoSection  :hover,
+  .infoSection ::before{
+    transform: scale(1.05);
+    transition: all 1s ease-in-out;
+  }
+
+
+ 
   .selector {
     background-color: #070b16;
     width: 100%;
     height: 100%;
+    transition: all 1s ease-in-out;
   }
 
   .selector ul {
@@ -300,22 +312,27 @@
 
   .specPhoto {
     width: 100%;
-    height: 50%;
+    height: 100%;
+    transition: all 1s ease-in-out;
   }
 
+  
   .specPhoto img {
     transition: all 1s ease-in-out;
     width: 100%;
     min-height: 100%;
-    overflow: hidden;
+    z-index: 21;
   }
 
-  .specPhoto :hover,
-  .specPhoto ::before {
+
+  .specPhoto  :hover,
+  .specPhoto  ::before{
+    transform: scale(.9);
     transition: all 1s ease-in-out;
-    transform: scale(1.15);
   }
 
+
+ 
   .barContent {
     width: 100%;
     height: 100%;

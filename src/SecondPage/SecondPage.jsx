@@ -9,8 +9,10 @@ function SecondPage() {
     <>
       <div className="wallpaperTwo" id="wallpaperTwo">
         <div className="test" id="test">
-          <FlexSmall></FlexSmall>
-          <FlexBig></FlexBig>
+          <div className="section">
+            <FlexSmall></FlexSmall>
+            <FlexBig></FlexBig>
+          </div>
         </div>
       </div>
     </>

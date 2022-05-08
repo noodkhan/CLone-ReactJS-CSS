@@ -14,70 +14,71 @@
       #121b35ec,
       #0613364b
     );
-    height: 150vh;
-    margin-top: 0;
+    height: 200vh;
   }
-
 
   .test {
     background: #05070cb6;
     position: relative;
-    min-height: 155vh;
+    height: 200vh;
     box-sizing: border-box;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   .section {
-    height: 50vh;
+    height: 200vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .flexElement {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
     right: 0;
     width: 100%;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 150vh;
   }
-  
+
   .flexElementTwo {
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     left: 0;
     right: 0;
-    height: 45vh;
+    height: 100vh;
     width: 100%;
     border-radius: 30px;
   }
 
   .contentOne {
+    bottom: 0;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
   }
 
   .photoElementOne {
-    width: 100%;
+    border-radius: 10px;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 97vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
     transition: all 2s ease-in-out;
   }
 
   .photoElementOne img {
-    border-radius: 10px;
     position: relative;
-    overflow: hidden;
-    width: 90%;
-    height: 80%;
+    min-width: 100%;
+    transition: all 1s ease-in-out;
+    height: 100%;
   }
 
   .contentOne :hover,
@@ -88,29 +89,29 @@
 
   .headingElement {
     position: absolute;
-    width: 90%;
+    width: 95%;
     height: 20%;
-    bottom: 40px;
+    left: 3%;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
   }
 
   .headingElement a {
     display: flex;
     align-items: center;
     height: 100%;
+    width: 100%;
     font-family: var(--fontfam4);
     font-weight: 400;
     text-shadow: 1px 1px 20px #777;
-    font-size: 18px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: all 1s ease-in-out;
     cursor: pointer;
-    margin-top: 1.5rem;
+    font-size: 20px;
   }
 
   .headingElement a:hover,
@@ -120,41 +121,44 @@
     text-shadow: 2px 2px 7px #777;
   }
 
-  .headingElement p {
+  .headingElement p{
     color: wheat;
     width: 100%;
-    font-size: smaller;
+    font-size: 12px;
     text-transform: uppercase;
     font-family: var(--fontfam4);
-    position: absolute;
-    margin-bottom: 4rem;
     letter-spacing: 2px;
+    margin-bottom: 1rem;
   }
 
   .contentTwo {
+    height: 50vh;
+    margin-left: auto;
     position: relative;
-    width: 93%;
-    height: 100%;
-    border-radius: 10px;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    margin-top: 4rem;
   }
 
   .photoElementTwo {
-    width: 100%;
+    border-radius: 10px;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
   }
 
   .photoElementTwo img {
-    border-radius: 10px;
     position: relative;
-    overflow: hidden;
-    width: 90%;
-    height: 80%;
-    max-height: 100%;
-    border-radius: 10px;
+    min-width: 100%;
     transition: all 1.5s ease-in-out;
+    height: 100%;
   }
 
   .contentTwo :hover,
@@ -164,13 +168,13 @@
   }
 
   .contentThree {
-    position: relative;
-    height: 85vh;
+    height: 70vh;
     margin-left: auto;
     margin-right: auto;
     right: 0;
     left: 0;
     width: 90vw;
+    position: relative;
   }
 
   .contentThree :hover,
@@ -194,6 +198,7 @@
     left: 0;
     right: 0;
     min-width: 100%;
+    transition: all 1s ease-in-out;
     height: 100%;
   }
 

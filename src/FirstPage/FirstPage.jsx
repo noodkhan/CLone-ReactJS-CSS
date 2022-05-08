@@ -4,7 +4,7 @@ import "./firstPagePhone.css";
 import MenuSection from "./Menusection/MenuSection";
 // import BackgroundPhoto from "../Car/Background.webp";
 import BarPhoto from "../Car/5.webp";
-import NewbackGround from '../Car/bruh.webp';
+import NewbackGround from "../Car/bruh.webp";
 // import MenuTest from "./MenuTest/MenuTest";
 
 function FirstPage() {
@@ -38,22 +38,22 @@ function FirstPage() {
 
   let SpecPhoto = (
     <div className="specPhoto">
-      <img src={BarPhoto} alt="specPhoto" />
+      <img src={BarPhoto} alt="bar" />
     </div>
   );
 
-  let BarContent = (
-    <div className="barContent">
-      <div className="barSpec">
-        <p>Top Speed / Km/Hr</p>
-        <div className="barOne"></div>
-      </div>
-      <div className="barSpec">
-        <p>Power /BpH</p>
-        <div className="barOne"></div>
-      </div>
-    </div>
-  );
+  // let BarContent = (
+  //   <div className="barContent">
+  //     <div className="barSpec">
+  //       <p>Top Speed / Km/Hr</p>
+  //       <div className="barOne"></div>
+  //     </div>
+  //     <div className="barSpec">
+  //       <p>Power /BpH</p>
+  //       <div className="barOne"></div>
+  //     </div>
+  //   </div>
+  // );
 
   const BarSpec = (
     <div className="infoSection">
@@ -70,11 +70,11 @@ function FirstPage() {
       <div className="wallpaper" id="wallpaper">
         <div className="photoBackground" id="photo">
           <img src={NewbackGround} alt="Background" />
-      {Heading}
+          <MenuSection />
+          {Heading}
         </div>
+        {BarSpec}
       </div>
-      {BarSpec}
-      <MenuSection />
     </>
   );
 }

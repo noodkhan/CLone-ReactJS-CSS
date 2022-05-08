@@ -42,6 +42,15 @@
     align-items: center;
   }
 
+  
+  .cardContent :hover,
+  .cardContent::before {
+    transition: all 1s ease-in-out;
+    transform: scale(1.04);
+    border-radius: 30px;
+  }
+
+
   .bigPhoto {
     max-width: 550px;
     height: 100%;
@@ -55,21 +64,16 @@
   .bigPhoto img {
     width: 105%;
     height: 100%;
+    transition: all 1s ease-in-out;
     max-width: 115%;
     max-height: 100%;
-  }
-
-  .cardContent :hover,
-  .cardContent::before {
-    transition: all 1s ease-in-out;
-    transform: scale(1.04);
-    border-radius: 30px;
   }
 
   .bigHeading {
     width: 100%;
     height: 100%;
     display: flex;
+    transition: all 1s ease-in-out;
     flex-direction: column;
     letter-spacing: 3px;
   }

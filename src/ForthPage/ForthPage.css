@@ -1,7 +1,13 @@
-.wallpaperThree {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
+@media screen and (min-width: 1150px) {
+  .wallpaperThree {
+    height: 105vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .wallpaperThree i {
+    margin-right: 1rem;
+  }
 }

@@ -3,11 +3,10 @@
     position: absolute;
     right: 0;
     height: 100%;
-    width: 30%;
+    width: 35%;
   }
 
   .secondMenu ul {
-    margin-left: 20px;
     display: flex;
     height: 100%;
   }

@@ -6,24 +6,22 @@ import imgOTwo from "../../../Car/2.jpg";
 function FlexSmall() {
   return (
     <>
-      <div className="section">
-        <div className="flexElement">
-          <div className="contentOne">
-            <div className="photoElementOne">
-              <img src={imgOne} alt="first" />
-              <div className="headingElement">
-                <p className="text-black">Limited editions and innovations</p>
-                <a href="blank"> Aston Martin Valkyrie </a>
-              </div>
+      <div className="flexElement">
+        <div className="contentOne">
+          <div className="photoElementOne">
+            <img src={imgOne} alt="first" />
+            <div className="headingElement">
+              <a href="blank"> Aston Martin Valkyrie </a>
+              <p className="text-black">Limited editions and innovations</p>
             </div>
           </div>
-          <div className="contentTwo">
-            <div className="photoElementTwo">
-              <img src={imgOTwo} alt="second" />
-              <div className="headingElement">
-                <p className="text-black">Limited editions and innovations</p>
-                <a href="blank">Special Project</a>
-              </div>
+        </div>
+        <div className="contentTwo">
+          <div className="photoElementTwo">
+            <img src={imgOTwo} alt="second" />
+            <div className="headingElement">
+              <a href="blank">Special Project</a>
+              <p className="text-black">Limited editions and innovations</p>
             </div>
           </div>
         </div>
