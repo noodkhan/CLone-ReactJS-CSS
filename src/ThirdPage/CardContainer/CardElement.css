@@ -51,6 +51,7 @@
     color: black;
     font-weight: 600;
     font-size: 20px;
+    transition: all 1s ease-in-out;
     font-family: var(--fontfam1);
   }
 
@@ -62,6 +63,7 @@
     font-weight: 300;
     font-size: 17px;
     font-family: var(--fontfam3);
+    transition: all 1s ease-in-out;
   }
 
   .bigHeading a {
@@ -80,6 +82,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    transition: all 1s ease-in-out;
   }
 
   i {

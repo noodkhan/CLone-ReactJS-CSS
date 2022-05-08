@@ -41,9 +41,11 @@
 
   .headingSection .pTag {
     height: 15%;
+    transition: all 1s ease-in-out;
   }
-
+  
   .headingSection .pTag p {
+    transition: all 1s ease-in-out;
     font-family: var(--fontfam9);
     margin-left: 10px;
     text-shadow: 2.5px 2px 5px black;
@@ -53,6 +55,7 @@
   .headingSection .hTag {
     height: 100%;
     width: 100%;
+    transition: all 1s ease-in-out;
   }
 
   .headingSection .hTag h2 {
@@ -61,6 +64,7 @@
     font-weight: 200;
     height: 85px;
     font-size: 70px;
+    transition: all 1s ease-in-out;
     text-shadow: 2.5px 2px 5px black;
   }
 

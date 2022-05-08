@@ -208,6 +208,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s ease-in-out;
     position: relative;
   }
 
@@ -217,11 +218,13 @@
     font-family: var(--fontfam7);
     text-shadow: 2.5px 2px 5px black;
     opacity: 0.9;
+    transition: all 1s ease-in-out;
   }
 
   .headingSection .hTag {
     height: 100%;
     width: 100%;
+    transition: all 1s ease-in-out;
   }
 
   .headingSection .hTag h2 {
@@ -230,6 +233,7 @@
     font-weight: 200;
     height: 85px;
     font-size: 60px;
+    transition: all 1s ease-in-out;
     text-shadow: 2.5px 2px 5px black;
   }
 
