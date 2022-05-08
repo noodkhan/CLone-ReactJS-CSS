@@ -72,9 +72,9 @@
     right: 0;
     border: 3px 3px 3px black;
     border-radius: 10px;
-    height: 20%;
+    height: 15%;
     position: absolute;
-    width: 45%;
+    width: 40%;
     font-size: 15px;
     align-items: center;
     font-family: var(--fontfam7);
