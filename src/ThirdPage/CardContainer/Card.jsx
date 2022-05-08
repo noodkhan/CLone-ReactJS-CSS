@@ -1,9 +1,9 @@
 import React from "react";
 import "./Card.css";
-import imgFour from "../../Car/4.jpg";
-import imgFive from "../../Car/5.webp";
-import imgSiz from "../../Car/6.webp";
-import imgSeven from "../../Car/7.jpg";
+import imgFour from "../../newImg/21.jpg";
+import imgFive from "../../newImg/33.jpg";
+import imgSiz from "../../newImg/logo3.jpg";
+import imgSeven from "../../newImg/30.jpg";
 import CardElement from "./CardElement";
 
 //           Aston Martin teams field strongest Daytona line-up in bid for 2022 Rolex 24 Hours glory

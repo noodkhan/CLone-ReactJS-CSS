@@ -30,6 +30,7 @@
   .contentOne ::before {
     transform: scale(1.025);
     transition: all 1s ease-in-out;
+    opacity: .99;
   }
 
   .photoElementOne {
@@ -44,13 +45,14 @@
     min-width: 100%;
     height: 100%;
     border-radius: 10px;
+    opacity: 0.65;
     transition: all 1s ease-in-out;
   }
 
   .contentTwo {
     position: relative;
-    width: 93%;
-    height: 94%;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
   }
 
@@ -58,6 +60,7 @@
   .contentTwo ::before {
     transform: scale(1.02);
     transition: all 1.5s ease-in-out;
+    opacity: 1;
   }
 
   .photoElementTwo {
@@ -72,25 +75,39 @@
     overflow: hidden;
     min-width: 100%;
     height: 100%;
+    opacity: 0.65;
     max-height: 100%;
     border-radius: 10px;
     transition: all 1s ease-in-out;
   }
 
   .headingElement {
-    bottom: 20px;
+    bottom: 3%;
     position: absolute;
-    left: 2%;
+    left: 1%;
+    transition: all 1s ease-in-out;
+
   }
 
   .headingElement a {
     font-family: var(--fontfam9);
     font-weight: 400;
-    text-shadow: 2.5px 2px 5px #777;
-    font-size: 25px;
-    color: black;
+    font-size: 20px;
+    color: white;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 15px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .headingElement p {
+    margin-top: .5rem;
+    font-family: var(--fontfam9);
+    font-weight: 400;
+    font-size: 9px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     transition: all 1s ease-in-out;
     cursor: pointer;
   }

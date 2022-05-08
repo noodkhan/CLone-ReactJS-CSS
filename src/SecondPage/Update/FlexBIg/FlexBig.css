@@ -14,12 +14,14 @@
   .contentThree {
     position: relative;
     height: 85vh;
+
   }
 
   .contentThree :hover,
   .contentThree ::before {
     transform: scale(1.02);
     transition: all 1s ease-in-out;
+    opacity: 1;
   }
 
   .photoElementThree {
@@ -37,13 +39,14 @@
     left: 0;
     right: 0;
     min-width: 100%;
+    opacity: .55;
     height: 120%;
     transition: all 1s ease-in-out;
   }
 
   .headingElementThree {
     position: absolute;
-    width: 600px;
+    width: 50%;
     height: 210px;
     top: 70px;
     left: 3%;
@@ -62,7 +65,7 @@
     font-size: 55px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 15px;
     transition: all 1s ease-in-out;
     cursor: pointer;
   }

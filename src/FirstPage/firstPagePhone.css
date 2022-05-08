@@ -184,7 +184,7 @@
 
   
   .headingSection {
-    margin-top: 2rem;
+    margin-top: 5rem;
     cursor: pointer;
     position: absolute;
     width: 100%;
@@ -290,6 +290,7 @@
   }
 
   .selector ul {
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./FlexSmall.css";
-import imgOne from "../../../Car/1.webp";
-import imgOTwo from "../../../Car/2.jpg";
+import imgOne from "../../../newImg/9.jpg";
+import imgOTwo from "../../../newImg/5.jpg";
 
 function FlexSmall() {
   return (
