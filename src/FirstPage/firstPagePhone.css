@@ -1,21 +1,25 @@
 @media  screen and (max-width: 1150px){
   .wallpaper {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
     z-index: -2;
     margin-bottom: 3rem;
+
   }
 
   .photoBackground {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .photoBackground img {
     min-width: 100%;
     height: 110%;
-    position: fixed;
+    position: relative;
     top: -40px;
   }
   

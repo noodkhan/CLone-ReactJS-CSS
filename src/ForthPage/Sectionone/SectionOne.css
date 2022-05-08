@@ -2,7 +2,7 @@
   .sectionOne {
     width: 100%;
     background: linear-gradient(to right, rgb(7, 1, 31), rgb(1, 11, 24));
-    height: 40%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;

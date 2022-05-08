@@ -2,8 +2,9 @@ import React from "react";
 import "./FirstPage.css";
 import "./firstPagePhone.css";
 import MenuSection from "./Menusection/MenuSection";
-import BackgroundPhoto from "../Car/Background.webp";
+// import BackgroundPhoto from "../Car/Background.webp";
 import BarPhoto from "../Car/5.webp";
+import NewbackGround from '../Car/bruh.webp';
 // import MenuTest from "./MenuTest/MenuTest";
 
 function FirstPage() {
@@ -68,7 +69,7 @@ function FirstPage() {
     <>
       <div className="wallpaper" id="wallpaper">
         <div className="photoBackground" id="photo">
-          <img src={BackgroundPhoto} alt="Background" />
+          <img src={NewbackGround} alt="Background" />
       {Heading}
         </div>
       </div>
