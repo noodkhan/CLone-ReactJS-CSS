@@ -2,14 +2,14 @@
   .contactSection {
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: 200vh;
     background: whitesmoke;
     margin-top: 40px;
     
   }
 
   .headingContact {
-    height: 25%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@
   }
 
   .bigContact {
-    height: 100%;
+    height: 62.5%;
     display: flex;
     flex-wrap: wrap;
     width: 100%;

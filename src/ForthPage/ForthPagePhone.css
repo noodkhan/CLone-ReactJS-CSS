@@ -1,14 +1,14 @@
 @media screen and (max-width: 1150px) {
   .wallpaperThree {
-    height: 130vh;
+    height: 120vh;
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
     z-index: 10;
   }
 
   .sectionOne {
+    margin-top: 2rem;
     width: 100%;
     /* background: linear-gradient(to right, rgb(7, 1, 31), rgb(1, 11, 24)); */
     height: 30%;
@@ -68,6 +68,7 @@
   }
 
   .sectionTwo {
+    margin-top: 1rem;
     border-top: 2px solid #666;
     width: 100%;
     height: 20%;
@@ -198,7 +199,8 @@
   .lastTitleOne p {
     margin-right: 30px;
     font-family: var(--fontfam9);
-    font-size: 18px;
+    font-size: 15px;
+    margin-left: 1rem;
   }
 
   .lastTitleTwo {
@@ -210,7 +212,6 @@
 
   .lastTitleTwo p {
     font-size: 10px;
-    letter-spacing: 1px;
     height: 50%;
     font-family: var(--fontfam4);
     font-weight: bold;
@@ -255,6 +256,6 @@
   }
 
   .wallpaperThree i {
-    margin-left: .4rem;
+    margin-left: .5rem;
   }
 }

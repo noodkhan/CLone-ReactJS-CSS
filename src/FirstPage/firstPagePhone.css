@@ -1,12 +1,9 @@
-@media  screen and (max-width: 1150px){
-
+@media screen and (max-width: 1150px) {
   .wallpaper {
     width: 100%;
     height: 100vh;
     position: relative;
     z-index: 1;
-    margin-bottom: 4rem;
-
   }
 
   .photoBackground {
@@ -16,17 +13,15 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .photoBackground img {
     min-width: 100%;
-    height: 110%;
+    min-height: 100%;
     position: relative;
-    top: -40px;
   }
-  
+
   .menuSection {
-    background-color: #070b16;
-    z-index: 10;
+    z-index: 3;
     top: 0;
     height: 7vh;
     width: 100vw;
@@ -38,6 +33,7 @@
   }
 
   .firstMenu {
+    margin-left: .5rem;
     height: 100%;
     width: 50vw;
     text-align: center;
@@ -49,7 +45,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #070b16;
   }
 
   .firstMenu ul li {
@@ -89,16 +84,17 @@
     height: 100px;
     right: 0;
     left: 0;
-    margin-top: 3rem;
+    margin-top: 6rem;
     margin-right: auto;
-    margin-left: auto ;
+    margin-left: auto;
+    z-index: 10;
   }
 
   .svgMartin {
     width: 100%;
     height: 100%;
   }
-  
+
   .svgMartin a {
     display: flex;
     text-align: center;
@@ -111,7 +107,7 @@
   .svgMartin img {
     overflow: hidden;
   }
-  
+
   .svgMartin h2 {
     align-self: center;
     display: flex;
@@ -181,14 +177,13 @@
     opacity: 1;
   }
 
-  
   .headingSection {
     margin-top: 0rem;
     cursor: pointer;
     position: absolute;
     width: 100%;
-    top: 2rem;
-    height: 50vh;
+    top: 0rem;
+    height: 51%;
     background-color: #070b16;
     text-align: center;
     display: flex;
@@ -204,7 +199,7 @@
   }
 
   .headingSection .pTag {
-    height: 57%;
+    height: 40%;
     background-color: #070b16;
     display: flex;
     justify-content: center;
@@ -223,7 +218,8 @@
   }
 
   .headingSection .hTag {
-    height: 100%;
+    margin-top: 1rem;
+    height: 50%;
     width: 100%;
     transition: all 1s ease-in-out;
   }
@@ -232,8 +228,11 @@
     width: 100%;
     font-family: var(--fontfam6);
     font-weight: 200;
-    height: 85px;
+    height: 50%;
     font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 1s ease-in-out;
     text-shadow: 2.5px 2px 5px black;
   }
@@ -247,7 +246,7 @@
     top: 0%;
     left: 0;
     right: 0;
-    height: 50vh;
+    height: 51vh;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -261,27 +260,24 @@
     z-index: 1;
   }
 
-  
-  .infoSection  :hover,
-  .infoSection ::before{
+  .infoSection :hover,
+  .infoSection ::before {
     transition: all 1s ease-in-out;
   }
 
-
- 
   .selector {
-    background-color: #070b16;
     width: 100%;
-    height: 100%;
+    height: 10%;
+    position: absolute;
     transition: all 1s ease-in-out;
+    top: 0;
   }
 
   .selector ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    gap: 1rem;
   }
 
   .selector ul li {
@@ -307,21 +303,17 @@
     transition: all 1s ease-in-out;
   }
 
-  
   .specPhoto img {
     transition: all 1s ease-in-out;
     width: 100%;
-    min-height: 100%;
+    min-height: 52vh;
   }
 
-
-  .specPhoto  :hover,
-  .specPhoto  ::before{
+  .specPhoto :hover,
+  .specPhoto ::before {
     transition: all 1s ease-in-out;
   }
 
-
- 
   .barContent {
     width: 100%;
     height: 100%;
