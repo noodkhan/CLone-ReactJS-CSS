@@ -1,6 +1,6 @@
 @media screen and (min-width: 1150px) {
   .section {
-    width: 95vw;
+    width: 100%;
     height: 50vh;
     background-color: transparent;
     display: flex;
@@ -13,7 +13,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
 
   .contentOne {
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100%;
   }
 
@@ -51,7 +51,7 @@
 
   .contentTwo {
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100%;
     border-radius: 10px;
   }

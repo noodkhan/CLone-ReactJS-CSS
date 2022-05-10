@@ -1,10 +1,11 @@
 @media screen and (max-width: 1150px) {
   .wallpaperThree {
-    height: 120vh;
+    height: 130vh;
     position: relative;
     display: flex;
     flex-direction: column;
     z-index: 10;
+    margin-top: 3rem;
   }
 
   .sectionOne {

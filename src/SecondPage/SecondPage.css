@@ -15,11 +15,12 @@
       #0613364b
     );
     height: 150vh;
+    width: 99vw;
   }
   .test {
     position: relative;
-    min-height: 155vh;
-    padding: 50px;
+    height: 155vh;
+    width: 100%;
     box-sizing: border-box;
     z-index: 1;
   }
