@@ -1,6 +1,6 @@
 import React from "react";
 import "./FlexBig.css";
-import imgThree from "../../../Car/3.jpg";
+import imgThree from "../../../newImg/99.jpg";
 
 function FlexBig() {
   return (
