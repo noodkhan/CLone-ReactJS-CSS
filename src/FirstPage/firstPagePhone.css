@@ -23,7 +23,7 @@
   }
 
   .menuSection {
-    z-index: 4;
+    z-index: 3;
     top: 0;
     height: 7vh;
     width: 100vw;
@@ -301,7 +301,7 @@
   }
 
   .specPhoto {
-    height: 80%;
+    height: 100%;
     width: 100vw;
     transition: all 1s ease-in-out;
   }
@@ -309,7 +309,7 @@
   .specPhoto img {
     transition: all 1s ease-in-out;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
   }
 
