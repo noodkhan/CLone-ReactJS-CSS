@@ -69,9 +69,10 @@
   }
 
   .infoSection {
-    width: 20%;
-    height: 20%;
+    width: 15vw;
+    height:28vh;
     background: transparent;
+    border-radius: 10px ;
     /* background-image: linear-gradient(
       to right top,
       #010d30d5,
@@ -88,12 +89,12 @@
       #070b16
     ); */
     position: absolute;
-    right: 60px;
-    top: 100px;
+    right: 5rem;
+    top: 7rem;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    opacity: 0.85;
+    opacity: 0.55;
   }
 
 
@@ -131,13 +132,14 @@
 
   .specPhoto {
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 
   .specPhoto img {
     transition: all 1s ease-in-out;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
+    border-radius: 10px ;
     overflow: hidden;
     position: absolute;
   }

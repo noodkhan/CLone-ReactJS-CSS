@@ -4,6 +4,7 @@
     height: 100vh;
     position: relative;
     z-index: 1;
+    margin-bottom: 1rem;
   }
 
   .photoBackground {
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .photoBackground img {
@@ -180,6 +182,7 @@
   .headingSection {
     cursor: pointer;
     position: absolute;
+    top: 0;
     width: 100%;
     height: 100%;
     background-color: transparent;
@@ -199,7 +202,6 @@
   .headingSection .pTag {
     height: 10%;
     width: 100%;
-    background-color: black;
     position: absolute;
     transition: all 1s ease-in-out;
     margin-left: auto;
@@ -207,6 +209,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 1;
   }
 
   .headingSection .pTag p {
@@ -227,8 +230,9 @@
     align-items: center;
     width: 100%;
     transition: all 1s ease-in-out;
+    z-index: 100;
   }
-
+  
   .headingSection .hTag h2 {
     width: 100%;
     font-family: var(--fontfam6);
@@ -243,19 +247,16 @@
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    top: 0%;
-    left: 0;
-    right: 0;
-    height: 100%;
-    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
+    position: absolute;
     background: transparent;
-    display: flex;
     flex-direction: column;
     border-radius: 5px;
+    background: rgb(0, 1, 7);
     opacity: 1;
     transition: all 1s ease-in-out;
     margin-bottom: 0rem;
@@ -300,15 +301,15 @@
   }
 
   .specPhoto {
-    width: 100%;
-    height: 100%;
+    height: 80%;
+    width: 100vw;
     transition: all 1s ease-in-out;
   }
-
+  
   .specPhoto img {
     transition: all 1s ease-in-out;
-    min-width: 100vw;
     height: 100vh;
+    width: 100%;
     overflow: hidden;
   }
 

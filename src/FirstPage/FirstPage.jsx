@@ -3,7 +3,7 @@ import "./FirstPage.css";
 import "./firstPagePhone.css";
 import MenuSection from "./Menusection/MenuSection";
 // import BackgroundPhoto from "../Car/Background.webp";
-import BarPhoto from "../newImg/3.jpg";
+import BarPhoto from "../newImg/po2.jpg";
 import NewbackGround from "../newImg/background.jpg";
 // import MenuTest from "./MenuTest/MenuTest";
 
@@ -71,8 +71,8 @@ function FirstPage() {
         <div className="photoBackground" id="photo">
           <img src={NewbackGround} alt="Background" />
           <MenuSection />
-          {Heading}
         </div>
+          {Heading}
         {BarSpec}
       </div>
     </>
