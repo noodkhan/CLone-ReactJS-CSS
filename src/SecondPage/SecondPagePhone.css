@@ -1,6 +1,6 @@
 @media screen and (max-width: 1150px) {
   .wallpaperTwo {
-    /* background-image: linear-gradient(
+    background-image: linear-gradient(
       to top #05070cf5,
       #05070cb6,
       #05070cb6,
@@ -13,7 +13,7 @@
       #161f37e3,
       #121b35ec,
       #0613364b
-    ); */
+    );
     height: 200vh;
   }
 
@@ -27,7 +27,6 @@
   }
   
   .section {
-    margin-top: 4rem;
     height: 200vh;
     display: flex;
     flex-direction: column;
