@@ -14,7 +14,7 @@
       #121b35ec,
       #0613364b
     );
-    height: 190vh;
+    height: 200vh;
   }
 
   .test {
@@ -23,6 +23,7 @@
     box-sizing: border-box;
     z-index: 1;
     display: flex;
+    margin-top : 3rem;
     flex-direction: column;
   }
   

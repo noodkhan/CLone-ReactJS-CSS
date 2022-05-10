@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 150px;
-    height: 200vh;
+    height: 100vh;
     background: whitesmoke;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
   }
 
   .headingContact {

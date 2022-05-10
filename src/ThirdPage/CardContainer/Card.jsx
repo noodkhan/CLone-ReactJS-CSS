@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import imgFour from "../../newImg/21.jpg";
+import imgFour from "../../newImg/3.jpg";
 import imgFive from "../../newImg/33.jpg";
 import imgSiz from "../../newImg/logo3.jpg";
 import imgSeven from "../../newImg/30.jpg";

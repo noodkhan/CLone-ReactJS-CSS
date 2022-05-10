@@ -1,7 +1,6 @@
 @media screen and (min-width: 1150px) {
   .sectionOne {
-    width: 100%;
-    background: linear-gradient(to top, rgb(7, 1, 31), rgb(1, 11, 24));
+    width: 100vw;
     height: 100%;
     display: flex;
     justify-content: space-around;

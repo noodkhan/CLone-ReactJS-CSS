@@ -22,8 +22,8 @@
 
   .contentOne {
     position: relative;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
   }
 
   .contentOne :hover,
@@ -42,7 +42,7 @@
   .photoElementOne img {
     position: relative;
     overflow: hidden;
-    min-width: 100%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
     opacity: 0.65;
@@ -73,7 +73,7 @@
   .photoElementTwo img {
     position: relative;
     overflow: hidden;
-    min-width: 100%;
+    width: 100%;
     height: 100%;
     opacity: 0.65;
     max-height: 100%;
