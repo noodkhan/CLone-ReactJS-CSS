@@ -13,7 +13,7 @@
   }
 
   .photoBackground img {
-    min-width: 100vw;
+    width: 100vw;
     height: 110%;
     position: fixed;
     top: -40px;
