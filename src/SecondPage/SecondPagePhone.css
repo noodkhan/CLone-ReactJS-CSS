@@ -1,19 +1,6 @@
 @media screen and (max-width: 1150px) {
   .wallpaperTwo {
-    background-image: linear-gradient(
-      to top #05070cf5,
-      #05070cb6,
-      #05070cb6,
-      #05070cb6,
-      #0a1129c7,
-      #0a1129c7,
-      #0a1129ef,
-      #0c1127f6,
-      #091024ec,
-      #161f37e3,
-      #121b35ec,
-      #0613364b
-    );
+    background-color: black;
     height: 190vh;
   }
 
@@ -74,6 +61,7 @@
   }
 
   .photoElementOne img {
+    opacity: 0.75;
     position: relative;
     min-width: 100%;
     transition: all 1s ease-in-out;
@@ -158,6 +146,8 @@
     min-width: 100%;
     transition: all 1.5s ease-in-out;
     height: 100%;
+    opacity: 0.85;
+
   }
 
   .contentTwo :hover,
@@ -198,6 +188,7 @@
     right: 0;
     min-width: 100%;
     transition: all 1s ease-in-out;
+    opacity: 0.75;
     height: 100%;
   }
 
