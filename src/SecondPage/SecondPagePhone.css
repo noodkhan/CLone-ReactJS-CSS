@@ -175,18 +175,14 @@
   .photoElementThree {
     border-radius: 10px;
     height: 100%;
-    width: 100%;
+    width: 98vw;
     overflow: hidden;
     transition: all 2s ease-in-out;
   }
 
   .photoElementThree img {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    min-width: 100%;
+    width: 180%;
     transition: all 1s ease-in-out;
     opacity: 0.75;
     height: 100%;
@@ -194,7 +190,7 @@
 
   .headingElementThree {
     position: absolute;
-    width: 100%;
+    width: 80vw;
     height: 210px;
     top: 70px;
     left: 3%;
@@ -213,7 +209,7 @@
     font-size: 35px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     transition: all 1s ease-in-out;
     cursor: pointer;
   }
@@ -221,6 +217,7 @@
   .headingElementThree p {
     width: 100px;
     height: 130px;
+    letter-spacing: 6px;
     font-family: var(--fontfam4);
     font-weight: smaller;
   }
