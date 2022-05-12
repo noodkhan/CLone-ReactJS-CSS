@@ -1,12 +1,13 @@
 @media screen and (max-width: 1150px) {
   .wallpaperTwo {
     background-color: black;
-    height: 190vh;
+    height: 220vh;
+    width: 100vw;
   }
 
   .test {
     position: relative;
-    height: 200vh;
+    height: 220vh;
     box-sizing: border-box;
     z-index: 1;
     display: flex;
@@ -14,8 +15,9 @@
   }
   
   .section {
-    height: 200vh;
+    height: 250vh;
     display: flex;
+    gap: 5rem;
     flex-direction: column;
   }
 
@@ -24,7 +26,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    height: 125vh;
+    height: 100vh;
   }
 
   .flexElementTwo {
@@ -33,7 +35,7 @@
     left: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     border-radius: 30px;
   }
 
@@ -51,7 +53,7 @@
   .photoElementOne {
     border-radius: 10px;
     height: 100%;
-    width: 95vw;
+    width: 98vw;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -63,7 +65,7 @@
   .photoElementOne img {
     opacity: 0.75;
     position: relative;
-    min-width: 100%;
+    width: 100%;
     transition: all 1s ease-in-out;
     height: 100%;
   }
@@ -76,7 +78,7 @@
 
   .headingElement {
     position: absolute;
-    width: 95%;
+    width: 50%;
     height: 20%;
     left: 3%;
     bottom: 0;
@@ -125,14 +127,14 @@
     margin-right: auto;
     right: 0;
     left: 0;
-    width: 100vw;
+    width: 98vw;
     margin-top: 4rem;
   }
 
   .photoElementTwo {
     border-radius: 10px;
     height: 100%;
-    width: 95vw;
+    width: 98vw;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -143,7 +145,7 @@
 
   .photoElementTwo img {
     position: relative;
-    min-width: 100%;
+    width: 100%;
     transition: all 1.5s ease-in-out;
     height: 100%;
     opacity: 0.85;
@@ -157,12 +159,13 @@
   }
 
   .contentThree {
-    height: 78vh;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
     right: 0;
+    margin-top: 10rem;
     left: 0;
-    width: 100vw;
+    width: 98vw;
     position: relative;
   }
 
@@ -175,14 +178,14 @@
   .photoElementThree {
     border-radius: 10px;
     height: 100%;
-    width: 98vw;
+    width: 95vw;
     overflow: hidden;
     transition: all 2s ease-in-out;
   }
 
   .photoElementThree img {
     position: relative;
-    width: 180%;
+    width: 100%;
     transition: all 1s ease-in-out;
     opacity: 0.75;
     height: 100%;
@@ -191,8 +194,8 @@
   .headingElementThree {
     position: absolute;
     width: 80vw;
-    height: 210px;
-    top: 70px;
+    height: 240px;
+    top: 0px;
     left: 3%;
     display: flex;
     flex-direction: column;
@@ -202,11 +205,11 @@
   .headingElementThree a {
     display: flex;
     align-items: center;
-    height: 100%;
+    height:20%;
     font-family: var(--fontfam4);
     font-weight: 400;
     text-shadow: 1px 1px 20px #777;
-    font-size: 35px;
+    font-size: 20px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -216,7 +219,7 @@
 
   .headingElementThree p {
     width: 100px;
-    height: 130px;
+    height: 30px;
     letter-spacing: 6px;
     font-family: var(--fontfam4);
     font-weight: smaller;

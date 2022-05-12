@@ -1,24 +1,26 @@
 @media screen and (min-width: 1150px) {
   .sectionOne {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem;
   }
   
   .sectionOne .titleFirst {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 15%;
+    width: 25%;
+    margin-left: 3rem;
     height: 100%;
   }
   
   .sectionOne .titleFirst h2 {
     display: flex;
     align-items: flex-end;
-    height: 25%;
+    height: 20%;
     font-size: 27px;
     font-family: var(--fontfam4);
     font-weight: 600;
@@ -28,7 +30,8 @@
   .sectionOne .titleFirst p {
     display: flex;
     align-items: center;
-    height: 45%;
+    height: 60%;
+    width: 70%;
     letter-spacing: 2px;
     font-size: 14px;
     color: #888;
@@ -36,7 +39,7 @@
   
   .sectionOne .titleFirst a {
     width: 100%;
-    height: 30%;
+    height: 20%;
     display: flex;
     align-items: flex-start;
     font-family: var(--fontfam1);

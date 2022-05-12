@@ -2,13 +2,16 @@
   .contactSection {
     display: flex;
     flex-direction: column;
-    height: 125vh;
+    height: 130vh;
+    width: 100vw;
     background: whitesmoke;
     
   }
 
   .headingContact {
-    height: 20%;
+    width: 100%;
+    height:12.5%;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,11 +38,13 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .cardContent {
-    padding: .3rem;
     width: 50%;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     height: 50%;
@@ -50,7 +55,7 @@
 
   .bigPhoto {
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +78,7 @@
   .cardContent :hover,
   .cardContent::before {
     transition: all 1s ease-in-out;
-    transform: scale(1.04);
+    transform: scale(1.02);
     border-radius: 30px;
   }
 
@@ -88,7 +93,7 @@
 
   .bigHeading p {
     width: 100%;
-    height: 30%;
+    height: 15%;
     display: flex;
     align-items: center;
     color: black;
@@ -100,6 +105,9 @@
   .bigHeading h2 {
     color: black;
     width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
     font-weight: 300;
     font-size: 12px;
     letter-spacing: 1px;
@@ -128,7 +136,7 @@
   .seeAllContent {
     display: flex;
     height: 5.5%;
-    width: 205px;
+    width:80%;
     margin-top: auto;
     margin-bottom: auto;
     top: 0;
@@ -163,11 +171,11 @@
 
   .buttonAll a:hover,
   .buttonAll a::before {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 1.7s ease-in-out;
   }
 }
 
 .contactSection i{
-  margin-left: 1rem;
+  margin-left: .1rem;
 }
