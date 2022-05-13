@@ -14,7 +14,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ==================================================================================
 
-
+   
+ _______________________________________________0 Home Page 0______________________________________________________________
+ 
+ 
+   ![1](https://user-images.githubusercontent.com/92358053/168397730-7e38c883-16b0-462c-b2d2-d1ecbd8e79cc.png)
+ 
 
  Thanks For visting I hope You Guys Enjoy & Having a great Day 
 
@@ -30,7 +35,11 @@ IG : noodkhan_navin
 To see the legitimate website that perfectly functionable ( https://aston-martin-80a86.web.app/ ) <<<
 
  
+  _______________________________________________0 Phone ReSize mobie Responsive webapp 0______________________________________________________________
  
+ 
+![6](https://user-images.githubusercontent.com/92358053/168399354-55892e3a-0b77-4e9f-a641-5194c4d40303.png)
+
 
 
 import Brain from './body/head/Brain.js';
@@ -45,8 +54,13 @@ return (
 const Everything4U = console.log(my_technology , command);
 
 Guild();
-
 )};
+
+ _______________________________________________0 News Section  0______________________________________________________________
+ 
+ 
+ ![4](https://user-images.githubusercontent.com/92358053/168398032-105ed37d-4ce9-4137-9671-e472c1dfedd4.png)
+
 
 To get Starting with everything 
 
@@ -58,6 +72,15 @@ Introduction Guild line {
 - forth > Target files with cmd to begin the process of editing                         _________ cd (files) ________     {If you can't find your files then GoodLUCk};
 - fifth > After You acess to files <<<<<<< Time to Code >>>>>                           __________ code . ___________     {To open Files with Vscode :)};
 - sixth > After files been open & edited --- run the command for compiled the files     ________ npm start __________     {Compiled to webbrowsser to render};
+
+
+
+ _______________________________________________0 Contact Section  0______________________________________________________________
+ 
+ 
+ ![5](https://user-images.githubusercontent.com/92358053/168398051-794ded38-72f5-4829-adb2-6c5cf5e9b392.png)
+
+
 
 
 =============================<<<<<<<<<<<
@@ -73,12 +96,7 @@ for more Details follow me on Github , facebook , IG for update Reviews
 ===============================================================================
 
 
-   
- _______________________________________________0 Home Page 0______________________________________________________________
- 
- 
-   ![1](https://user-images.githubusercontent.com/92358053/168397730-7e38c883-16b0-462c-b2d2-d1ecbd8e79cc.png)
- 
+
  
  _____________________________________________0 IntroDuction for Products 0________________________________________________
  
@@ -92,22 +110,11 @@ _____________________________________________0 Anoter Intro for better feelings 
  ![3](https://user-images.githubusercontent.com/92358053/168397917-26bf6b80-5337-4a4d-9347-39e730599eb4.png)
  
  
- _______________________________________________0 News Section  0______________________________________________________________
- 
- 
- ![4](https://user-images.githubusercontent.com/92358053/168398032-105ed37d-4ce9-4137-9671-e472c1dfedd4.png)
-
-
- _______________________________________________0 Contact Section  0______________________________________________________________
- 
- 
- ![5](https://user-images.githubusercontent.com/92358053/168398051-794ded38-72f5-4829-adb2-6c5cf5e9b392.png)
 
 
 
 
-
-==============================================================================================================
+=======================================================================================================================================================================
  
  
   
