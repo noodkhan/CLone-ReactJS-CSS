@@ -86,11 +86,11 @@ _____________________________________________0 Anoter Intro for better feelings 
 
 credit : Navin Khanthawong (Thailand)
 
-=============================
+
 gmail : noodkhan8@gmail.com
 facebook : noodkhan_navin 
 IG : noodkhan_navin 
-===========================
+
 
 
  
