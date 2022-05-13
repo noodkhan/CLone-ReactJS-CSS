@@ -13,6 +13,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 ==================================================================================
+
+
+
+
 import Brain from './body/head/Brain.js';
 
 let myTechnology = [ JavaScript ,  Css   ,  Html  ,  FireBase  ];
@@ -99,7 +103,7 @@ gmail : noodkhan8@gmail.com
 facebook : noodkhan_navin 
 IG : noodkhan_navin 
 
-
+To see the legitimate website that perfectly functionable ( https://aston-martin-80a86.web.app/ ) <<<
 
  
  
