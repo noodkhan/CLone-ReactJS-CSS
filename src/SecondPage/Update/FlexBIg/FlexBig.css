@@ -3,10 +3,11 @@
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    bottom: -5%;
+    bottom: -30%;
     left: 0;
     right: 0;
     height: 100vh;
+
     background-color: black;
     width: 100%;
     border-radius: 30px;
