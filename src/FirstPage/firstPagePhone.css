@@ -206,13 +206,15 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    bottom: 5.5rem;
+    bottom: 4.5rem;
     z-index: 1;
   }
 
   .headingSection .pTag p {
     text-shadow: 2.5px 2px 5px black;
     opacity: 0.9;
+    font-size: 16px;
+    letter-spacing: 5px;
     transition: all 1s ease-in-out;
     font-family: var(--fontfam6);
     font-weight: 200;
@@ -293,7 +295,7 @@
     font-size: 13px;
     font-weight: 500;
     font-family: var(--fontfam9);
-    color: black;
+    color: whitesmoke;
   }
 
   .selector ul li :hover,
