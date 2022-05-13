@@ -1,8 +1,8 @@
 @media screen and (min-width: 1150px) {
   .section {
     width: 100%;
-    height: 50%;
-    background-color: transparent;
+    height: 60vh;
+    background-color: black;
     display: flex;
     flex-direction: row;
   }
@@ -10,6 +10,7 @@
   .flexElement {
     position: relative;
     margin-left: auto;
+    background: black;
     margin-right: auto;
     left: 0;
     right: 0;
@@ -17,13 +18,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.8rem;
+    gap: 2rem;
   }
 
   .contentOne {
     position: relative;
     width: 100%;
     height: 100%;
+    background-color: black;
+
   }
 
   .contentOne :hover,

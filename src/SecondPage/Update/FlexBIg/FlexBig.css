@@ -7,7 +7,6 @@
     left: 0;
     right: 0;
     height: 100vh;
-
     background-color: black;
     width: 100%;
     border-radius: 30px;
@@ -15,7 +14,7 @@
 
   .contentThree {
     position: relative;
-    width: 95vw;
+    width: 100%;
     height: 120vh;
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +35,8 @@
     width: 100%;
     overflow: hidden;
     transition: all 2s ease-in-out;
+    background-color: black;
+
     margin-left: auto;
     margin-right: auto;
     left: 0;
