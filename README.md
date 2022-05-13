@@ -1,71 +1,50 @@
-# Getting Started with Create React App
+Hi i'm noodkhan Full-stack Developer Working 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+import Brain from './body/head/Brain.js';
 
-## Available Scripts
+let myTechnology = [ JavaScript ,  Css   ,  Html  ,  FireBase  ];
 
-In the project directory, you can run:
+for (my_technology  =  ReactJS , (Soon NextJS) , (Soon PHP))
 
-### `npm start`
+function Guild(command){
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+return (
+const Everything4U = console.log(my_technology , command);
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Guild();
 
-### `npm test`
+)};
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is One of my Project ... I clone this from OG AstonMartin Website !!! :) 
+=============================================================================
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get Starting with everything 
 
-### `npm run eject`
+Introduction Guild line {
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- First > You need to Download files from this GitHub section by using Command          _____ 'Git clone (url)' _____ 
+- second > Then after that you have to use                                              _________ 'npm install' _____    {To create Node_modules for this files...};
+- third > open with vscode by Going to files                                            _________  'open cmd'________     {From window };
+- forth > Target files with cmd to begin the process of editing                         _________ cd (files) ________     {If you can't find your files then GoodLUCk};
+- fifth > After You acess to files <<<<<<< Time to Code >>>>>                           __________ code . ___________     {To open Files with Vscode :)};
+- sixth > After files been open & edited --- run the command for compiled the files     ________ npm start __________     {Compiled to webbrowsser to render};
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+=============================<<<<<<<<<<<
+- seven > congratulations Your code run perfectly ... In ReactJS      ....................                   
+=============================>>>>>>>>>>>>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-![background](https://user-images.githubusercontent.com/92358053/168394580-8dfbac63-db83-46c4-a268-f8c72ead99d9.jpg)
+for more Details follow me on Github , facebook , IG for update Reviews 
 
-### Code Splitting
+                                                                                                                                       By The love of God (Goodluck) :) 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
