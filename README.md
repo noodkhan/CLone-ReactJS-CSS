@@ -16,6 +16,22 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 
+ Thanks For visting I hope You Guys Enjoy & Having a great Day 
+
+
+
+credit : Navin Khanthawong (Thailand)
+
+
+gmail : noodkhan8@gmail.com
+facebook : noodkhan_navin 
+IG : noodkhan_navin 
+
+To see the legitimate website that perfectly functionable ( https://aston-martin-80a86.web.app/ ) <<<
+
+ 
+ 
+
 
 import Brain from './body/head/Brain.js';
 
@@ -91,22 +107,7 @@ _____________________________________________0 Anoter Intro for better feelings 
 
 
 
-
- Thanks For visting I hope You Guys Enjoy & Having a great Day 
-
-
-
-credit : Navin Khanthawong (Thailand)
-
-
-gmail : noodkhan8@gmail.com
-facebook : noodkhan_navin 
-IG : noodkhan_navin 
-
-To see the legitimate website that perfectly functionable ( https://aston-martin-80a86.web.app/ ) <<<
-
- 
- 
+==============================================================================================================
  
  
   
