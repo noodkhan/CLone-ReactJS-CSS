@@ -8,7 +8,7 @@
     right: 0;
     height: 100vh;
     background-color: black;
-    width: 100%;
+    width: 98%;
     border-radius: 30px;
   }
 
@@ -36,7 +36,6 @@
     overflow: hidden;
     transition: all 2s ease-in-out;
     background-color: black;
-
     margin-left: auto;
     margin-right: auto;
     left: 0;
