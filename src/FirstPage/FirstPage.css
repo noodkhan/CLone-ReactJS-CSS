@@ -3,19 +3,19 @@
     height: 100vh;
     position: relative;
     z-index: 0;
-    width: 100%;
+    width: 98vw;
   }
 
   .photoBackground {
-    width: 100%;
-    height: 100vh;
+    width: 95vw;
+    height: 120vh;
     position: relative;
     z-index: -1;
   }
 
   .photoBackground img {
     width: 100%;
-    height: 110%;
+    height: 120%;
     position: fixed;
     overflow: hidden;
 
@@ -69,8 +69,8 @@
   }
 
   .infoSection {
-    width: 15vw;
-    height:28vh;
+    width: 13vw;
+    height:30vh;
     background: transparent;
     border-radius: 10px ;
     /* background-image: linear-gradient(

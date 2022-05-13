@@ -2,22 +2,23 @@
   .wallpaperTwo {
     background-color: black;
     height: 220vh;
-    width: 100vw;
+    width: 100%;
   }
 
   .test {
     position: relative;
-    height: 220vh;
+    height: 200vh;
     box-sizing: border-box;
     z-index: 1;
     display: flex;
+    background-color: black;
     flex-direction: column;
   }
   
   .section {
-    height: 250vh;
+    margin-top: 3rem;
+    height: 200vh;
     display: flex;
-    gap: 5rem;
     flex-direction: column;
   }
 
@@ -26,7 +27,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    height: 100vh;
+    height: 125vh;
   }
 
   .flexElementTwo {
@@ -35,7 +36,7 @@
     left: 0;
     right: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     border-radius: 30px;
   }
 
@@ -47,13 +48,13 @@
     right: 0;
     left: 0;
     position: relative;
-    width: 100vw;
+    width: 100%;
   }
 
   .photoElementOne {
     border-radius: 10px;
     height: 100%;
-    width: 98vw;
+    width : 95%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -65,7 +66,7 @@
   .photoElementOne img {
     opacity: 0.75;
     position: relative;
-    width: 100%;
+    min-width: 100%;
     transition: all 1s ease-in-out;
     height: 100%;
   }
@@ -78,7 +79,7 @@
 
   .headingElement {
     position: absolute;
-    width: 50%;
+    width: 95%;
     height: 20%;
     left: 3%;
     bottom: 0;
@@ -127,14 +128,14 @@
     margin-right: auto;
     right: 0;
     left: 0;
-    width: 98vw;
+    width: 100%;
     margin-top: 4rem;
   }
 
   .photoElementTwo {
     border-radius: 10px;
     height: 100%;
-    width: 98vw;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -145,7 +146,7 @@
 
   .photoElementTwo img {
     position: relative;
-    width: 100%;
+    min-width: 100%;
     transition: all 1.5s ease-in-out;
     height: 100%;
     opacity: 0.85;
@@ -159,43 +160,47 @@
   }
 
   .contentThree {
-    height: 50vh;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     right: 0;
-    margin-top: 10rem;
     left: 0;
-    width: 98vw;
+    width: 100%;
     position: relative;
   }
 
   .contentThree :hover,
   .contentThree ::before {
-    transform: scale(1.05);
     transition: all 2s ease-in-out;
   }
 
   .photoElementThree {
     border-radius: 10px;
     height: 100%;
-    width: 95vw;
+    width: 100%;
     overflow: hidden;
     transition: all 2s ease-in-out;
   }
 
   .photoElementThree img {
     position: relative;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    width: 180%;
     transition: all 1s ease-in-out;
     opacity: 0.75;
-    height: 100%;
+    height: 110%;
   }
 
   .headingElementThree {
     position: absolute;
+    width: 100%;
     width: 80vw;
-    height: 240px;
-    top: 0px;
+    height: 210px;
+    top: 70px;
     left: 3%;
     display: flex;
     flex-direction: column;
@@ -205,21 +210,21 @@
   .headingElementThree a {
     display: flex;
     align-items: center;
-    height:20%;
+    height: 100%;
     font-family: var(--fontfam4);
     font-weight: 400;
     text-shadow: 1px 1px 20px #777;
-    font-size: 20px;
+    font-size: 35px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     transition: all 1s ease-in-out;
     cursor: pointer;
   }
 
   .headingElementThree p {
     width: 100px;
-    height: 30px;
+    height: 130px;
     letter-spacing: 6px;
     font-family: var(--fontfam4);
     font-weight: smaller;

@@ -3,7 +3,7 @@ import "./FirstPage.css";
 import "./firstPagePhone.css";
 import MenuSection from "./Menusection/MenuSection";
 // import BackgroundPhoto from "../Car/Background.webp";
-import BarPhoto from "../newImg/100.jpg";
+import BarPhoto from "../newImg/101.jpg";
 import NewbackGround from "../newImg/background.jpg";
 // import MenuTest from "./MenuTest/MenuTest";
 

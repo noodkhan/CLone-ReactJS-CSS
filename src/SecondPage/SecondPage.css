@@ -1,14 +1,14 @@
 @media only screen and (min-width: 1150px) {
   .wallpaperTwo {
     background: black;
-    height: 150vh;
-    width: 100vw;
+    height: 200vh;
+    width: 100%;
   }
   .test {
     position: relative;
-    height: 150vh;
-    background: black;
-    width: 100%;
+    background-color: black;
+    height: 155vh;
+    width: 98vw;
     box-sizing: border-box;
     z-index: 1;
   }
