@@ -80,7 +80,7 @@ _____________________________________________0 Anoter Intro for better feelings 
 
 
 
------------------- Thanks For visting I hope You Guys Enjoy & Having a great Day ----------------------
+ Thanks For visting I hope You Guys Enjoy & Having a great Day 
 
 
 
