@@ -12,12 +12,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 credit : Navin Khanthawong (Thailand)
 
-To see the legitimate website that perfectly functionable ( https://aston-martin-80a86.web.app/ ) <<<
-
- 
-![6](https://user-images.githubusercontent.com/92358053/168399354-55892e3a-0b77-4e9f-a641-5194c4d40303.png)
-
-
  
  ![4](https://user-images.githubusercontent.com/92358053/168398032-105ed37d-4ce9-4137-9671-e472c1dfedd4.png)
 
