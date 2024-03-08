@@ -1,4 +1,3 @@
-https://aston-martin-80a86.web.app
 Hi i'm noodkhan Full-stack Developer Working 
 
 Builds the app for production to the `build` folder.\
