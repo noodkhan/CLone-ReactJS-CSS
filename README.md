@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h2>Hi i'm noodkhan Full-stack Developer Working </h2>
     <h1>🚗 Aston Martin Landing Page Clone (React)</h1>
     <h2>Introduction</h2>
     <p>
